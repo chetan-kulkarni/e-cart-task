@@ -1,0 +1,12 @@
+/* Media Queries */
+@media (max-width: 700px) {
+  .top-container {
+    grid-template-areas: "products-container" "products-container" "products-container" 'cart-container';
+  }
+}
+
+@media (max-width: 500px) {
+  .top-container {
+    grid-template-areas: "products-container" "products-container" "products-container" "cart-container";
+  }
+}
